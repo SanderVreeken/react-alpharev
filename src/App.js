@@ -17,6 +17,8 @@ import { useStateValue } from './components/StateProvider'
 function App() {
   const [{ user }] = useStateValue()
 
+  console.log('Sander')
+
   return (
     <div className='application'>
       <Router>
