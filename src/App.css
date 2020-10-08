@@ -1,0 +1,43 @@
+:root {
+  --secondary-color: #FFF5D7;
+  --main-font-color: #212529;
+  --secondary-font-color: white;
+}
+
+* {
+  font-size: 13px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  width: 352px;
+}
+
+.login-form__submit {
+  background-color: var(--secondary-color);
+}
+
+.login__left {
+  background-color: var(--secondary-color);
+  width: 50%;
+}
+
+.login__left, .login__right {
+  width: 50%;
+}
+
+.login__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
